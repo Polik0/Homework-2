@@ -10,14 +10,18 @@ h3 {
 .category {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: normal;
     font-size: 80%;
 }
 
+.title {
+    font-weight: normal;
+}
+
 .menu-item {
-     font-size: large;
-     list-style-type: none;
-     font-size: 25px;
+    font-size: large;
+    list-style-type: none;
+    font-size: 25px;
 }
 
 a {
@@ -28,7 +32,7 @@ a {
 .blog_article {
    float: left; 
    width: 33%;
-   margin-top: 10%;
+   margin-top: 8%;
 }
 
 .blog_article[column='1'] {
